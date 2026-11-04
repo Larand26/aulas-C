@@ -1,0 +1,72 @@
+# Compilacao
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.bin
+*.elf
+*.hex
+*.map
+
+# Diretorios de build
+build/
+build-*/
+bin/
+obj/
+out/
+dist/
+debug/
+release/
+
+# Arquivos gerados por ferramentas de compilacao
+*.d
+*.gch
+*.pch
+*.i
+*.s
+compile_commands.json
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+_deps/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IDEs e ferramentas
+.idea/
+*.code-workspace
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs e arquivos temporarios
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
