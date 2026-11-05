@@ -18,4 +18,6 @@ int main(){
     }
 
     printf("%d", total);
+    
+    return 0;
 }
